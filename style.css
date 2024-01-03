@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: rgb(54, 54, 54);
+    background: rgb(235, 235, 235);
+}
+
+.fotoperfil {
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid rgb(54, 54, 54);
+    box-shadow: 0 0 10px 0px rgb(53, 53, 53);
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.link-list {
+    background-color: rgb(216, 216, 216);
+    padding: 2%;
+    border-radius: 20px;
+    margin: 15px 10px;
+    border: 2px solid rgb(54, 54, 54);
+    box-shadow: 0 0 5px white;
+    list-style: none;
+    
+}
+
+.link-list li a {
+    display: block;
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;font-family: 'Kanit', sans-serif;
+}
+
+.link-list li a span {
+    display: block;
+    margin-top: 3px;
+    color: rgb(54, 54, 54);
+}
